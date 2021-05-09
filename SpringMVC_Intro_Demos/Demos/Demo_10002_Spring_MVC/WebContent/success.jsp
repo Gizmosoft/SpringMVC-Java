@@ -13,7 +13,7 @@
 	<h2>Login Successful</h2>
 	<c:out value="${message}"></c:out><br>
 	<a href="${pageContext.request.contextPath}/login.jsp">Home</a>
-	<!-- way of giving the relative path properly so as to stop unnecessary url portion getting appended in URL-->
+	<%-- way of giving the relative path properly so as to stop unnecessary url portion getting appended in URL--%>
 </center>
 </body>
 </html>
