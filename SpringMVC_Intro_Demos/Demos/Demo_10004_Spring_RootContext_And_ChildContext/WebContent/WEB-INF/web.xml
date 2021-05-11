@@ -18,7 +18,8 @@
         </param-value>
     </context-param>
   <!-- Registering Parent context using the context load listener  -->
-	
+
+	<!-- Registering DispatcherServlet as usual -->
   <servlet>
     <servlet-name>cstspconf-web</servlet-name>
     <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
