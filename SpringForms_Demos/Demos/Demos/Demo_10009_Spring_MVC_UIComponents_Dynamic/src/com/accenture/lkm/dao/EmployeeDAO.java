@@ -14,7 +14,7 @@ public class EmployeeDAO {
 	public Map<String, String> getCountries() {
 		LinkedHashMap<String, String> map = new LinkedHashMap<String, String>();
 		map.put("US", "United States"); // value label
-		map.put("SG", "Singapur");
+		map.put("SG", "Singapore");
 		map.put("DB", "Dubai");
 		return map;
 	}

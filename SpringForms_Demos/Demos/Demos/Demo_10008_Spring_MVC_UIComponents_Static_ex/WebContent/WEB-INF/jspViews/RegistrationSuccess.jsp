@@ -12,7 +12,31 @@
 		<hr>
 		<h3 style="color: blue">${message}</h3>
 		<table border="2">
-			
+			<tr>
+				<td>Customer Name :</td>
+				<td>${customerBean.customerName}</td>
+			</tr>
+			<tr>
+				<td>Gender :</td>
+				<td>${customerBean.gender}</td>
+			</tr>
+			<tr>
+				<td>Customer Type :</td>
+				<td>${customerBean.customerType}</td>
+			</tr>
+			<tr>
+				<td>Additional Steps :</td>
+				<td>${customerBean.addtionalSteps}</td>
+			</tr>
+			<tr>
+				<td>Services :</td>
+				<td>${customerBean.customerServices[0]} ${customerBean.customerServices[1]}
+					${customerBean.customerServices[2]}</td>
+			</tr>
+			<tr>
+				<td>Home Delivery :</td>
+				<td>${customerBean.homeDelivery}</td>
+			</tr>
 		</table>
 	</center>
 </body>

@@ -34,7 +34,7 @@ font-style: italic;
 			<td>Country :</td>
 			<td><form:select path="country">
 				<form:option value="" label="--Select--" />
-				<form:options items="${countryList}"/> <!-- 1st check this out for dynamic drop down  change to countryListSameNameAndValue and observe-->
+				<form:options items="${countryListSameNameAndValue}"/> <!-- 1st check this out for dynamic drop down  change to countryListSameNameAndValue and observe-->
 			</form:select></td>
 		</tr>
 		<tr>
