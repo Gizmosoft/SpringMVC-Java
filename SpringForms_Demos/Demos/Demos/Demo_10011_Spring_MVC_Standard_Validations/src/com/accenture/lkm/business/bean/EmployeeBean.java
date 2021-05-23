@@ -12,6 +12,7 @@ import org.hibernate.validator.constraints.Range;
 import org.springframework.format.annotation.DateTimeFormat;
 
 public class EmployeeBean {
+	@NotEmpty
 	@Size(max=10,min=2)
 	private String name;
 	
